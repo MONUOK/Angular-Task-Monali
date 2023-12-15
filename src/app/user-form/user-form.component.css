@@ -1,0 +1,39 @@
+.card-box{
+    background-color: #252525;
+    padding: 40px 40px;
+    margin: 40px 40px;
+    box-shadow: #4a5050;
+    border-radius: 25px;
+
+}
+.error-message{
+  color: red;
+}
+
+.submit-btn{
+    color: white;
+    /* background-color: #4a5050; */
+    border-radius: 35px;
+    padding: 5px 15px;
+    font-size: 14px;
+    align-items: center;
+    background: linear-gradient(90deg,#f79333 0%,#f2b46c 85%);
+}
+.text-white{
+    color: white;
+}
+::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: #323232 !important;
+    color:white !important;
+  }
+  ::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-text-field__input{
+    color:white !important;
+  }
+  ::ng-deep  .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-text-field__input::placeholder{
+    color:white !important;
+    font-size: 12px !important;
+
+  }
+  ::ng-deep .form-field--read .mat-form-field-underline {
+    display: none;
+}
